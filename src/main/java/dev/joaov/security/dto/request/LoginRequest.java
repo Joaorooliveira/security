@@ -1,4 +1,11 @@
 package dev.joaov.security.dto.request;
 
-public record LoginRequest() {
+import jakarta.validation.constraints.NotEmpty;
+
+public record LoginRequest(
+        @NotEmpty(message ="Email obrigatorio")
+        String email,
+
+        @NotEmpty(message = "Senha obrigatoria")
+        String password) {
 }
