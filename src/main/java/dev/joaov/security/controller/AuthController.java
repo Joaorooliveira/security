@@ -1,6 +1,6 @@
 package dev.joaov.security.controller;
 
-import dev.joaov.security.controller.entity.User;
+import dev.joaov.security.entity.User;
 import dev.joaov.security.dto.request.LoginRequest;
 import dev.joaov.security.dto.request.RegisterUserRequest;
 import dev.joaov.security.dto.response.LoginResponse;

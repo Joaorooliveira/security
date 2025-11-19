@@ -1,6 +1,6 @@
 package dev.joaov.security.repository;
 
-import dev.joaov.security.controller.entity.User;
+import dev.joaov.security.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Repository;

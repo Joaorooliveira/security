@@ -1,4 +1,4 @@
-package dev.joaov.security.controller.entity;
+package dev.joaov.security.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
